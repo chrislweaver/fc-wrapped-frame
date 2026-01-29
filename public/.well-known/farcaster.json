@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjg5NDc4MSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDJDOTlBOTBENTA2YjMyODlGMjZhMTU2QjIyNTI2NjBmMjVBNjkyMjkifQ",
+    "payload": "eyJkb21haW4iOiJmYy13cmFwcGVkLWZyYW1lLXByb2R1Y3Rpb24udXAucmFpbHdheS5hcHAifQ",
+    "signature": "placeholder-needs-signing"
+  },
+  "frame": {
+    "version": "1",
+    "name": "FC Wrapped",
+    "iconUrl": "https://fc-wrapped-frame-production.up.railway.app/icon.png",
+    "homeUrl": "https://fc-wrapped-frame-production.up.railway.app",
+    "imageUrl": "https://fc-wrapped-frame-production.up.railway.app/og.png",
+    "buttonTitle": "📊 See My Wrapped",
+    "splashImageUrl": "https://fc-wrapped-frame-production.up.railway.app/splash.png",
+    "splashBackgroundColor": "#0a0a0a",
+    "webhookUrl": "https://fc-wrapped-frame-production.up.railway.app/api/webhook"
+  }
+}
