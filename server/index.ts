@@ -77,7 +77,8 @@ async function fetchUserByUsername(username: string): Promise<any> {
 }
 
 async function fetchUserCasts(fid: number, cursor?: string): Promise<any> {
-  const url = new URL(`https://api.neynar.com/v2/farcaster/feed/user/${fid}/casts`);
+  const url = new URL('https://api.neynar.com/v2/farcaster/feed/user/casts');
+  url.searchParams.set('fid', String(fid));
   url.searchParams.set('limit', '150');
   if (cursor) url.searchParams.set('cursor', cursor);
   
